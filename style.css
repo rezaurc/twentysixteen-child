@@ -1,0 +1,116 @@
+/*
+Theme Name: Twenty Sixteen Child
+Theme URI: http://rezaur.net/twentysixteen-child
+Description: Child theme for WordPress new default twentysixteen theme. With implemantation of override functions. New control for title color etc. 
+Version: 1.0.2
+Author: Rezaur Chowdhury    
+Author URI: http://www.rezaur.com
+Template: twentysixteen
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue, one-column, custom-header
+Text Domain: twentysixteenchild
+*/
+
+/*-----Footer Back to Top Link----------*/
+.back-to-top {
+	position: fixed;
+	bottom: 2em;
+	right: 21px;
+	text-decoration: none;
+	color: #000000;
+	background-color: rgba(235, 235, 235, 0.80);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+}
+
+.back-to-top:hover {	
+	background-color: rgba(135, 135, 135, 0.50);
+}
+.site-header{
+    padding: 5.25em 0%;
+}
+.site-header-main{
+    padding: 0  4.5455% !important;
+}
+.header-image{
+    text-align:center;
+}
+/* new font */
+.widecolumn label,
+.widecolumn .mu_register label, .no-comments, .comment-form label, .comment-reply-link, .comment-metadata,
+.pingback .edit-link, .comments-title, .comment-reply-title, .page-links, .page-title, .sticky-post, .entry-footer, .entry-title,
+.site-title, .tagcloud a, .widget_rss .rss-date,
+.widget_rss cite, .widget_recent_entries .post-date, .widget .widget-title, .site .skip-link, .image-navigation,
+.comment-navigation, .pagination, .post-navigation .post-title, .post-navigation, .main-navigation, .post-password-form label, button,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus  {
+	font-family: Open Sans, "Helvetica Neue", sans-serif;
+}
+::-webkit-input-placeholder {
+	color: #686868;
+	font-family: Open Sans, "Helvetica Neue", sans-serif;
+}
+
+:-moz-placeholder {
+	color: #686868;
+	font-family: Open Sans, "Helvetica Neue", sans-serif;
+}
+
+::-moz-placeholder {
+	color: #686868;
+	font-family: Open Sans, "Helvetica Neue", sans-serif;
+	opacity: 1;
+	/* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+:-ms-input-placeholder {
+	color: #686868;
+	font-family: Open Sans, "Helvetica Neue", sans-serif;
+}
+
+
+
+
+@media screen and (min-width: 44.375em) {
+    .site-header {
+	padding: 3.9375em 7.6923%;
+    }
+    .site-header-main{
+        padding: 0  7.6923% !important;
+    }  
+}
+
+@media screen and (min-width: 56.875em) {
+    .site-header {
+            padding-right: 0;
+            padding-left: 0;
+    }
+
+    .site-header-main {
+            padding-right: 4.5455%;
+            padding-left: 4.5455%;            
+            -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 61.5625em) {
+    .site-header {
+        padding: 2.25em 0;
+    }
+    .site-header-main{
+        padding: 0  4.5455% !important;
+     }        
+}
