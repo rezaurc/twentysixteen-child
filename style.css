@@ -57,6 +57,9 @@ input[type="submit"][disabled]:hover,
 input[type="submit"][disabled]:focus  {
 	font-family: Open Sans, "Helvetica Neue", sans-serif;
 }
+#secondary nav.social-navigation {
+    display: inline-block;
+}
 ::-webkit-input-placeholder {
 	color: #686868;
 	font-family: Open Sans, "Helvetica Neue", sans-serif;
